@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+*{
+    font-family: "DM Serif Display", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(picture/proo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-attachment: fixed;
+}
+header{
+    background-color:rgb(223, 233, 241);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+.logo{
+text-decoration: none;
+color: hsl(267, 96%, 48%);
+text-transform: uppercase;
+font-weight: 800;
+font-size: 1.8em;
+}
+.navigation a{
+    color: rgb(129, 11, 239);
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 800;
+    padding-left: 40px;
+}
+.navigation a:hover{
+    color:rgb(231, 12, 12)
+}
+section{
+    padding: 100px;
+}
+.back{
+width: 500px;
+min-height: 90vh;
+display: flex;
+align-items: center;
+background-image: url(picture/proo.jpg) no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+.back h2{
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    font-weight: 700;
+}
+.back h3{
+    color: #d9fe07;
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: top 10px ;
+    margin-bottom: 30px;
+}
+.back-btn{
+    color: aliceblue;
+    background-color: rgb(7, 7, 212);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.6em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    transition: 0.7s ease;
+
+}
+.back-btn:hover{
+    background-color: rgb(108, 11, 245);
+    transform: scale(1.1,1.1);
+    
+}
+.chahboun{
+    background-color: rgb(11, 6, 1);
+    display: flex;flex-wrap: wrap;
+    
+}
+.chahboun .content{
+    margin-top: 40px;
+    display: flex;flex-wrap: wrap;
+}
+
+.chahboun-card{
+    background-color: rgb(240, 248, 255);
+    border: 4px solid #b004f5;
+    min-height: 10em;
+    width:10em ;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.7s ease;
+   
+}
+.chahboun-card:hover{
+    transform: scale(1.1);
+}
+.chahboun-image img{
+width: 100%;
+}
+
+.chahboun-nom{
+ padding:0.1em ;
+}
+.chahboun-dars{
+    font-size: 1.1em;
+    color: rgb(242, 7, 7);
+}
+.chahboun-title{
+    display: flex;
+}
+
+
+
+
+.chahboun1{
+    background-color: rgb(0, 0, 0);
+    display: flex;flex-wrap: wrap;
+}
+.chahboun1.content_1{
+    margin-top: 20px;
+    display: flex;flex-wrap: wrap;
+}
+
+.chahboun1-card{
+    background-color: aliceblue;
+    border: 4px solid #9907dc;
+    min-height: 10em;
+    width:10em ;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.7s ease;
+}
+.chahboun1-card:hover{
+    transform: scale(1.1);
+}
+.chahboun1-image img{
+width: 100%;
+}
+
+.chahboun1-nom{
+ padding:0.1em ;
+}
+.chahboun1-dars{
+    font-size: 1.1em;
+    color: rgb(242, 7, 7);
+}
+
+.chahboun1{
+    background-color: rgb(0, 0, 0);
+    display: flex;flex-wrap: wrap;
+}
+.chahboun1 .content_1{
+    margin-top: 20px;
+    display: flex;flex-wrap: wrap;
+}
+
+.chahboun1-card{
+    background-color: aliceblue;
+    border: 4px solid #9907dc;
+    min-height: 10em;
+    width:10em ;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.7s ease;
+}
+.chahboun1-card:hover{
+    transform: scale(1.1);
+}
+.chahboun1-image img{
+width: 100%;
+}
+
+.chahboun1-nom{
+ padding:0.1em ;
+}
+.chahboun1-dars{
+    font-size: 1.1em;
+    color: rgb(242, 7, 7);
+}
+
+
+
+
+
+
+
+.chahboun2{
+    background-color: rgb(0, 0, 0);
+    display: flex;flex-wrap: wrap;
+}
+.chahboun2 .content_2{
+    margin-top: 20px;
+    display: flex;flex-wrap: wrap;
+}
+
+.chahboun2-card{
+    background-color: aliceblue;
+    border: 4px solid #9907dc;
+    min-height: 10em;
+    width:10em ;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.7s ease;
+}
+.chahboun2-card:hover{
+    transform: scale(1.1);
+}
+.chahboun2-image img{
+width: 100%;
+}
+
+.chahboun2-nom{
+ padding:0.1em ;
+}
+.chahboun2-dars{
+    font-size: 1.1em;
+    color: rgb(242, 7, 7);
+}
+
+.chahboun2{
+    background-color: rgb(0, 0, 0);
+    display: flex;flex-wrap: wrap;
+}
+.chahboun2 .content_2{
+    margin-top: 20px;
+    display: flex;flex-wrap: wrap;
+}
+
+.chahboun2-card{
+    background-color: aliceblue;
+    border: 4px solid #9907dc;
+    min-height: 10em;
+    width:10em ;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.7s ease;
+}
+.chahboun2-card:hover{
+    transform: scale(1.1);
+}
+.chahboun2-image img{
+width: 100%;
+}
+
+.chahboun2-nom{
+ padding:0.1em ;
+}
+.chahboun2-dars{
+    font-size: 1.1em;
+    color: rgb(242, 7, 7);
+}
+
+
+
+.chahboun3{
+    background-color: rgb(0, 0, 0);
+    display: flex;flex-wrap: wrap;
+}
+.chahboun3 .content_3{
+    margin-top: 20px;
+    display: flex;flex-wrap: wrap;
+}
+
+.chahboun3-card{
+    background-color: aliceblue;
+    border: 4px solid #9907dc;
+    min-height: 10em;
+    width:10em ;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.7s ease;
+}
+.chahboun3-card:hover{
+    transform: scale(1.1);
+}
+.chahboun3-image img{
+width: 100%;
+}
+
+.chahboun3-nom{
+ padding:0.1em ;
+}
+.chahboun3-dars{
+    font-size: 1.1em;
+    color: rgb(242, 7, 7);
+}
+
+.chahboun3{
+    background-color: rgb(176, 2, 2);;
+    display: flex;flex-wrap: wrap;
+}
+.chahboun3 .content_3{
+    margin-top: 20px;
+    display: flex;flex-wrap: wrap;
+}
+
+.chahboun3-card{
+    background-color: aliceblue;
+    border: 4px solid #9907dc;
+    min-height: 10em;
+    width:10em ;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.7s ease;
+}
+.chahboun3-card:hover{
+    transform: scale(1.1);
+}
+.chahboun3-image img{
+width: 100%;
+}
+
+.chahboun3-nom{
+ padding:0.1em ;
+}
+.chahboun3-dars{
+    font-size: 1.1em;
+    color: rgb(242, 7, 7);
+}
+   
+
+
+

@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+*{
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(picture/proo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-attachment: fixed;
+}
+header{
+    background-color:rgb(223, 233, 241);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+.logo{
+text-decoration: none;
+color: hsl(0, 89%, 50%);
+text-transform: uppercase;
+font-weight: 800;
+font-size: 1.8em;
+}
+.navigation a{
+    color: rgb(129, 11, 239);
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 800;
+    padding-left: 40px;
+}
+.navigation a:hover{
+    color:rgb(231, 12, 12)
+}
+section{
+    padding: 130px 40px;
+}
+.back{
+width: 500px;
+min-height: 90vh;
+display: flex;
+align-items: center;
+background-image: url(picture/proo.jpg) no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+
+.back h2{
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    font-weight: 800;
+}
+.back h3{
+    color: #d9fe07;
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: top 20px ;
+    margin-bottom: 30px;
+}
+.back-btn{
+    color: aliceblue;
+    background-color: rgb(7, 7, 212);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.6em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    transition: 0.7s ease;
+
+}
+.back-btn:hover{
+    background-color: rgb(108, 11, 245);
+    transform: scale(1.1,1.1);
+    
+}
+.chahboun{
+  background-color: black;
+  display: flex; width: 100%; flex-wrap: wrap; justify-content: center;
+    
+}
+.chahboun .content{
+    margin-top: 40px;
+    display: flex; width: 100%; flex-wrap: wrap; justify-content: center;
+}
+
+.chahboun-card{
+    background-color: rgb(240, 248, 255);
+    border: 4px solid #ea0e0e;
+    min-height: 12em;
+    width:10em ;
+    overflow: hidden;
+    border-radius: 13px;
+    margin: 13px;
+    transition: 0.7s ease;
+
+    
+   
+}
+.chahboun-card:hover{
+    transform: scale(1.1);
+}
+.chahboun-image img{
+width: 100%;
+}
+
+.chahboun-nom{
+ padding:0.1em ;
+}
+.chahboun-dars{
+    font-size: 1.1em;
+    color: rgb(242, 7, 7);
+}
+.chahboun-title{
+    display: flex;
+}
+
+.chahboun2{
+  background-color: black;
+  display: flex; width: 100%; flex-wrap: wrap; justify-content: center;
+    
+}
+.chahboun2 .content{
+    margin-top: 40px;
+    display: flex; width: 100%; flex-wrap: wrap; justify-content: center;
+}
+
+.chahboun2-card{
+    background-color: rgb(240, 248, 255);
+    border: 4px solid #ea0e0e;
+    min-height: 12em;
+    width:10em ;
+    overflow: hidden;
+    border-radius: 13px;
+    margin: 13px;
+    transition: 0.7s ease;
+
+    
+   
+}
+.chahboun2-card:hover{
+    transform: scale(1.1);
+}
+.chahboun2-image img{
+width: 100%;
+}
+
+.chahboun2-nom{
+ padding:0.1em ;
+}
+.chahboun2-dars{
+    font-size: 1.1em;
+    color: rgb(242, 7, 7);
+}
+.chahboun2-title{
+    display: flex;
+}
+
+.chahboun3{
+    background-color: black;
+    display: flex; width: 100%; flex-wrap: wrap; justify-content: center;
+      
+  }
+  .chahboun3 .content{
+      margin-top: 40px;
+      display: flex; width: 100%; flex-wrap: wrap; justify-content: center;
+  }
+  
+  .chahboun3-card{
+      background-color: rgb(240, 248, 255);
+      border: 4px solid #ea0e0e;
+      min-height: 12em;
+      width:10em ;
+      overflow: hidden;
+      border-radius: 13px;
+      margin: 13px;
+      transition: 0.7s ease;
+  
+      
+     
+  }
+  .chahboun3-card:hover{
+      transform: scale(1.1);
+  }
+  .chahboun3-image img{
+  width: 100%;
+  }
+  
+  .chahboun3-nom{
+   padding:0.1em ;
+  }
+  .chahboun3-dars{
+      font-size: 1.1em;
+      color: rgb(242, 7, 7);
+  }
+  .chahboun3-title{
+      display: flex;
+  }
+
+
+
+
+
+
+  .chahboun4{
+    background-color: black;
+    display: flex; width: 100%; flex-wrap: wrap; justify-content: center;
+      
+  }
+  .chahboun4 .content{
+      margin-top: 40px;
+      display: flex; width: 100%; flex-wrap: wrap; justify-content: center;
+  }
+  
+  .chahboun4-card{
+      background-color: rgb(240, 248, 255);
+      border: 4px solid #ea0e0e;
+      min-height: 12em;
+      width:10em ;
+      overflow: hidden;
+      border-radius: 13px;
+      margin: 13px;
+      transition: 0.7s ease;
+  
+      
+     
+  }
+  .chahboun4-card:hover{
+      transform: scale(1.1);
+  }
+  .chahboun4-image img{
+  width: 100%;
+  }
+  
+  .chahboun4-nom{
+   padding:0.1em ;
+  }
+  .chahboun4-dars{
+      font-size: 1.1em;
+      color: rgb(242, 7, 7);
+  }
+  .chahboun4-title{
+      display: flex;
+  }
